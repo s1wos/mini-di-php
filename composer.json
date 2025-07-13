@@ -1,0 +1,21 @@
+{
+  "name": "mini/di",
+  "description": "Mini-DI-container",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "MiniDI\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "psr/container": "^1.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5"
+  },
+  "scripts": {
+    "test": "phpunit --colors=always"
+  }
+}
